@@ -6,12 +6,7 @@ export interface Props {
 }
 
 const { href, title, body } = Astro.props;
-
-console.log('Server Sider');
 ---
-<script>
-	console.log('Client Side');
-</script>
 <li class="link-card">
 	<a href={href}>
 		<h2>
